@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            /* background-color: ; */
+            /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkew7lwxu86jS7I5v4WBUk97VlneggQKSdTins4AQF5vbk2ceM7pPTPgzVmPafJQeHbPA&usqp=CAU); */
+            /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREp21gxaGHD2Bx95w7PVf7zr0yKTmWgEKSPcAVp85mWJHKLv1t-aF9s7060yrsP_AS6sM&usqp=CAU); */
+            /* background-image: url(https://images3.alphacoders.com/261/thumb-1920-26105.jpg); */
+            object-fit:fill;
+            background-repeat: no-repeat;
+            background-size: cover;  
+        }
+        section{
+            border: 1px solid black;
+            height: 550px;
+            width: 500px;
+            margin: auto;
+            border-radius: 30px;          
+        }
+        h1{
+            text-align: center;
+            /* color: white; */
+            color: black;
+        }
+        #box{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            /* color: white; */
+            color: black;
+            
+        }
+        #box-2{
+            margin: auto;
+            border: 1px solid;
+            width: 500px;
+            border-radius: 15px;
+    
+        }
+        a{
+            color: rgb(0, 136, 248);
+        }
+        p{
+            text-align: center;
+            /* color: white; */
+            color: black;
+        }
+        input{
+            font-size: 17px;
+            border-radius: 6px;
+            border: solid black;
+            padding: 2px 0px 2px 0px;
+        }
+        input:hover{
+            border-color: black;
+            border: 3px solid;
+        }
+        .btn{
+            align-items: center;
+            justify-content: center;
+            margin-right: 50px;
+            margin-left: 75px;
+            border: 2px solid ;
+            padding: 3px 8px 3px 8px;
+            border-radius: 10px;
+            background-color:rgb(17, 141, 243);
+            color: white;
+            font-weight: 400;
+            font-size: 17px;
+        }
+        .btn:hover{
+            background-color: steelblue;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1 class="h">Student Registration</h1>
+        <div id="box">
+            <form action="">
+                <div id="form-box">
+                    <label for="name"><b>Name:</b></label><br>
+                    <input type="text" size="40px" placeholder="Enter your Name" required><br><br>
+                </div>
+                <div id="form-box">
+                    <label for="email"><b>Email:</b></label><br>
+                    <input type="text" size="40px" placeholder="Enter your Email" required><br><br>
+                </div>
+                <div id="form-box">
+                    <label for=""><b>Contact Number:</b></label><br>
+                    <input type="text" size="40px" placeholder="Enter your phone Number" required><br><br>
+                </div>
+                <div id="form-box">
+                    <label for="stream"><b>Stream:</b></label><br>
+                    <input type="text"size="40px"  placeholder="Enter Your Stream" required><br><br>
+                </div>
+                <div id="form-box">
+                    <label for="addmision-date"><b>Addmision Date:</b></label>
+                    <input type="date" required><br><br>
+                </div>
+                <div id="form-box">
+                    <label for="sid"><b>Student ID:</b></label><br>
+                    <input type="text" size="40px" placeholder="Enter your Student ID" required><br><br>
+                </div>
+                <div id="form-box">
+                    <label for="password"><b>Password:</b></label><br>
+                    <input type="password"size="40px" placeholder="Enter Password" required><br><br>
+                </div>
+                <div id="form-box">
+                    <button class="btn">Submit</button>
+                    <button class="btn">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <br>
+    <div id="box-2">
+        <p>Don't have an account? <a href="LoginPage.html">Sign up</a></p>
+    </div>
+</body>
+</html>
