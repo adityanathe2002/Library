@@ -114,6 +114,7 @@ footer{
     height: 150px;
     transform-style: preserve-3d;
     animation: animate 20s linear infinite;
+    display: flex;
     
 }
 @keyframes animate {
